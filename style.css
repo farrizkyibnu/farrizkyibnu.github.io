@@ -1,0 +1,345 @@
+/* Navbar */
+
+
+.navbar-brand {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+}
+
+
+.nav-link {
+  margin-right: 40px;
+
+}
+
+
+
+
+
+/* Jumbotron */
+
+.jumbotron{
+  background-image: url(img/unsplash_Oi_oaJk3qlo\ \(1\).png);
+  background-size: cover;
+  height: 650px;
+  margin-top: 100px;
+  text-align: center;
+  
+
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 80px;
+  font-weight: 50px;
+  margin-bottom: 30px;
+
+
+
+}
+
+.jumbotron .lead {
+  color: white;
+  font-weight: 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+
+}
+
+.jumbotron .display-4 span{
+  font-weight: 400;
+}
+
+
+.jumbotron .lead span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* infopanel */
+
+.info-panel {
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-top: -100px;
+  background-color: white; 
+  padding: 35px;
+  backdrop-filter: 10px;
+}
+
+
+.info-panel img{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.info-panel h4{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 7px;
+  
+}
+
+
+/* Working Space */
+
+.back-videos{
+  position: absolute;
+  size: 1400px;
+}
+
+.workingspace{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.workingspace h3{
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 70px;
+  
+}
+
+.workingspace h3 span{
+  font-weight: 700px;
+  font-weight: bold;
+}
+
+.workingspace p span{
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.workingspace h2{
+  color: grey;
+  font-size: 18px;
+  font-weight: 350;
+}
+
+.workingspace .tombol{
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* workingspace 2 */
+
+.workingspace2{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.workingspace2 h3{
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.workingspace2 h3 span{
+  font-weight: bolder;
+}
+
+.workingspace2 p span{
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.workingspace2 h2{
+  color: grey;
+  font-size: 18px;
+  font-weight: 350;
+}
+
+.workingspace2 .tombol{
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Testimonial */
+.testimonial{
+  margin-top: 200px;
+}
+
+.testimonial h5{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+.testimonial figure img{
+  width: 100px;
+  margin-top: 10px;
+  margin: 35px 15px;
+  opacity: 0.5;
+}
+
+
+.testimonial figure img.utama{
+  width: 160px;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+
+
+
+
+.testimonial figure h5{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(65, 65, 97);
+}
+
+.testimonial p{
+  font-style: 25px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+
+/* Utility */
+
+.tombol{
+  font-weight: 600;
+  border-radius: 40px;
+  stroke: none;
+}
+
+.tombol2{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8); 
+  font-weight: 600;
+  border-radius: 40px;
+  background-image: url(img/Frame\ 14211.png);
+  border-width: 0px;
+  border-color: white;
+  padding: 8px 25px;
+  gap: 20px;
+  
+}
+
+/* About Me */
+.aboutme{
+  font-size: 60px;
+  margin-top: 50px;
+  
+}
+
+
+
+.aboutme p{
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: left;
+  font-weight: normal;
+
+}
+
+.aboutme img{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+/* caption */
+
+.caption{
+  
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-weight: lighter;
+  text-align: center;
+  font-style: normal;
+  opacity: 0.4;
+}
+
+
+
+
+
+
+/* Desktop version */
+
+@media (min-width: 992px) {
+
+.navbar-brand, .nav-link {
+  color: rgb(255, 255, 255) !important;
+  
+
+
+}
+
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid #079cff; 
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+  transition: 5s;
+  
+
+
+
+
+}
+
+.tombol2{
+  font-weight: 600;
+  border-radius: 60px;
+  margin-top: 50px;
+}
+
+
+.jumbotron{
+  margin-top: -75px;
+}
+
+
+
+.jumbotron .display-4{
+  font-size: 40px;
+}
+
+.workingspace{
+  text-align: left;
+}
+
+.workingspace2{
+  text-align: left;
+}
+
+
+.testimonial h5{
+  font-size: 32px
+
+}
+
+.testimonial p{
+  text-align: justify;
+}
+
+
+}
