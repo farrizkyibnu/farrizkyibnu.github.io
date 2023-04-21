@@ -1,5 +1,8 @@
 /* Navbar */
 
+:root {
+  scroll-behavior: smooth;
+}
 
 .navbar-brand {
   font-family: 'Inter', sans-serif;
