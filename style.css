@@ -4,6 +4,7 @@
   scroll-behavior: smooth;
 }
 
+
 .navbar-brand {
   font-family: 'Inter', sans-serif;
   font-size: 30px;
@@ -56,7 +57,7 @@
 
 
 .jumbotron .lead span {
-  font-weight: 750;
+  font-weight: 700;
   font-style: italic;
 }
 
@@ -228,13 +229,12 @@
 
 .tombol2{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8); 
-  border-radius: 60px;
+  border-radius: 40px;
   background-image: url(img/Frame\ 14211.png);
   border-width: 0px;
   border-color: white;
   padding: 8px 25px;
   gap: 20px;
-  margin-top 20px;
   
 }
 
@@ -288,8 +288,9 @@
 
 .navbar-brand, .nav-link {
   color: rgb(255, 255, 255) !important;
-
+  
 }
+
 
 .nav-link:hover::after{
   content: '';
@@ -299,20 +300,6 @@
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -8px;
-  transition: 5s;
-  
-
-.jumbotron{
-  background-image: url(img/unsplash_Oi_oaJk3qlo\ \(1\).png);
-  background-size: cover;
-  height: 550px;
-  margin-top: 10px;
-  text-align: center;
-  
-
-}
-
-
 }
 
 .tombol2{
@@ -321,6 +308,15 @@
   margin-top: 50px;
 }
 
+.jumbotron{
+  background-image: url(img/unsplash_Oi_oaJk3qlo\ \(1\).png);
+  background-size: cover;
+  height: 550px;
+  margin-top: 100px;
+  text-align: center;
+  
+
+}
 
 .jumbotron{
   margin-top: -75px;
@@ -331,8 +327,8 @@
 .jumbotron .display-4{
   font-size: 40px;
 }
-  
-  .info-panel {
+
+.info-panel {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   margin-top: -100px;
