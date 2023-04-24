@@ -66,7 +66,7 @@
 .info-panel {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
-  margin-top: -50px;
+  margin-top: 25px;
   background-color: white; 
   padding: 35px;
   backdrop-filter: 10px;
