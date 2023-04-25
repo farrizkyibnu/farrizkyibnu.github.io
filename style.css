@@ -292,14 +292,21 @@
 }
 
 
-.nav-link:hover::after{
+.nav-link::after{
   content: '';
   display: block;
-  border-bottom: 3px solid #079cff; 
-  width: 70%;
+  border-bottom: 3px solid #edf7f9; 
+  width: 0%;
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -8px;
+  transition: 0.2s;
+}
+
+
+
+.nav-link:hover:after{
+  width: 50%;
 }
 
 .tombol2{
@@ -314,8 +321,6 @@
   height: 650px;
   margin-top: 100px;
   text-align: center;
-  
-
 }
 
 .jumbotron{
