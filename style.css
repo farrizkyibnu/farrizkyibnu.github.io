@@ -67,7 +67,7 @@
 .info-panel {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
-  margin-top: -50px;
+  margin-top: -100px;
   background-color: white; 
   padding: 35px;
   backdrop-filter: 10px;
@@ -239,6 +239,14 @@
   
 }
 
+.tombol-contact{
+  background-color: rgba(0, 20, 69, 0.852);
+  border-radius: 40px;
+  border-color: #bf83f700;
+  border-width: 2px;
+}
+
+
 /* About Me */
 .aboutme{
   font-size: 60px;
@@ -289,26 +297,27 @@
 
 .navbar-brand, .nav-link {
   color: rgb(255, 255, 255) !important;
-  
 }
-
 
 .nav-link::after{
   content: '';
   display: block;
-  border-bottom: 3px solid #edf7f9; 
+  border-bottom: 3px solid #b8e3f7; 
   width: 0%;
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -8px;
   transition: 0.2s;
+  
+
 }
 
 
 
 .nav-link:hover:after{
-  width: 50%;
+  width: 65%;
 }
+
 
 .tombol2{
   font-weight: 600;
@@ -316,12 +325,42 @@
   margin-top: 50px;
 }
 
+.tombol3{
+  background-color: #009da4;
+  border-color: #ffffff;
+  border-radius: 40px;
+  border-width: 3px;
+}
+
+.tombol3:hover{
+  background-color: #69c2c7;
+  border-color: #ffffff;
+  border-radius: 40px;
+  border-width: 3px;
+}
+
+.tombol-contact{
+  background-color: rgba(8, 145, 173, 0.26);
+  border-radius: 40px;
+  border-color: #bf83f700;
+  border-width: 2px;
+}
+
+.tombol-contact:hover{
+  background-color: #009da5;
+  border-color: white;
+  box-shadow: (0px 0px 38.304px #fefbfe);
+}
+
+
 .jumbotron{
   background-image: url(img/unsplash_Oi_oaJk3qlo\ \(1\).png);
   background-size: cover;
   height: 650px;
   margin-top: 100px;
   text-align: center;
+  
+
 }
 
 .jumbotron{
