@@ -33,9 +33,10 @@
 }
 
 .display-4 {
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 40px;
   color: white;
+  font-size: 40px;
+  width: auto;
 
 }
 .display-4 {
@@ -414,6 +415,11 @@
 
 .jumbotron .display-4{
   font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 600;
+    width: auto;
 }
 
 .info-panel {
