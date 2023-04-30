@@ -32,14 +32,30 @@
 
 }
 
-.jumbotron .display-4 {
-  color: white;
+.display-4 {
   margin-top: 80px;
-  font-weight: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  color: white;
 
-
-
+}
+.display-4 {
+  animation: 4s anim-flipX ease infinite;
+  
+}
+@keyframes anim-flipX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+  100% {
+    /* animate nothing to pause animation at the end */
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
 }
 
 .jumbotron .lead {
@@ -229,7 +245,7 @@
 
 
 .tombol-contact{
-  background-color: rgba(12, 188, 207, 0.852);
+  background-color: rgba(5, 151, 167, 0.998);
   border-radius: 40px;
   border-color: #bf83f700;
   border-width: 4px;
@@ -289,7 +305,7 @@
 }
 
 .tombol0-hover {
-  background-image: linear-gradient(to right, hwb(188 40% 4%), #f04a8d, #f074c2, #733ff5);
+  background-image: linear-gradient(to right, hwb(256 60% 0%), #f04a8c, #f074c2, #733ff5);
   box-shadow: 0 4px 15px 0 rgba(218, 160, 231, 0.619);
 }
 
