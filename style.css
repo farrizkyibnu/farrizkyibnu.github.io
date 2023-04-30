@@ -229,11 +229,26 @@
 
 
 .tombol-contact{
-  background-color: rgba(0, 20, 69, 0.852);
+  background-color: rgba(18, 4, 59, 0.852);
   border-radius: 40px;
   border-color: #bf83f700;
   border-width: 4px;
 }
+
+.tombol3{
+  background-color: #009da4;
+  border-color: #ffffff;
+  border-radius: 40px;
+  border-width: 3px;
+}
+
+.tombol3:hover{
+  background-color: #69c2c7;
+  border-color: #ffffff;
+  border-radius: 40px;
+  border-width: 3px;
+}
+
 
 .tombol0-hover{
   margin: 30px;
@@ -350,21 +365,6 @@
   width: 65%;
 }
 
-
-
-.tombol3{
-  background-color: #009da4;
-  border-color: #ffffff;
-  border-radius: 40px;
-  border-width: 3px;
-}
-
-.tombol3:hover{
-  background-color: #69c2c7;
-  border-color: #ffffff;
-  border-radius: 40px;
-  border-width: 3px;
-}
 
 .tombol-contact{
   background-color: rgba(8, 145, 173, 0.26);
