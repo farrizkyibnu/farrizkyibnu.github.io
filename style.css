@@ -289,7 +289,7 @@
 }
 
 .tombol0-hover {
-  background-image: linear-gradient(to right, hwb(210 15% 0%), #f04a8d, #f074c2, #733ff5);
+  background-image: linear-gradient(to right, hwb(188 40% 4%), #f04a8d, #f074c2, #733ff5);
   box-shadow: 0 4px 15px 0 rgba(218, 160, 231, 0.619);
 }
 
