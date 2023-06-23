@@ -4,8 +4,17 @@
   scroll-behavior: smooth;
 }
 
+.navbar-brand, .nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar{
+  background-color: #ffffff1e; 
+  backdrop-filter: blur(50pxpx);
+}
 
 .navbar-brand {
+  
   font-family: 'Inter', sans-serif;
   font-size: 30px;
 }
@@ -26,7 +35,6 @@
   background-image: url(img/unsplash_Oi_oaJk3qlo\ \(1\).png);
   background-size: cover;
   height: 700px;
-  margin-top: 10px;
   text-align: center;
   
 
@@ -268,6 +276,7 @@
 
 
 .tombol0-hover{
+  margin-top: 40px;
   margin: 30px;
   text-align: center;
 }
@@ -363,6 +372,21 @@
   color: rgb(255, 255, 255) !important;
 }
 
+.navbar{
+background: linear-gradient(269.76deg, rgba(55, 2, 82, 0.418) 4.55%, rgba(3, 1, 65, 0.537) 95.65%);
+border-radius: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+backdrop-filter: blur(10px);
+position: fixed;
+width: 1248px;
+height: 77px;
+left: calc(50% - 1248px/2);
+top: 0px;
+}
+
 .nav-link::after{
   content: '';
   display: block;
@@ -372,8 +396,6 @@
   padding-bottom: 5px;
   margin-bottom: -8px;
   transition: 0.2s;
-  
-
 }
 
 
