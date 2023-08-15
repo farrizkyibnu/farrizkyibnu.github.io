@@ -10,7 +10,7 @@
 
 .navbar{
   background-color: #ffffff1e; 
-  backdrop-filter: blur(50pxpx);
+  backdrop-filter: blur(100px);
 }
 
 .navbar-brand {
@@ -72,8 +72,6 @@
   font-weight: 100px;
   margin-top: 20px;
   margin-bottom: 30px;
-
-
 }
 
 .jumbotron .display-4 span{
